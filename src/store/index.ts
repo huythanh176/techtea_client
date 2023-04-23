@@ -1,9 +1,10 @@
 import { createStore } from "vuex";
+import homeScreen from "./homeScreen";
+import postDetail from "./postDetail";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    homeScreen,
+    postDetail,
+  },
 });

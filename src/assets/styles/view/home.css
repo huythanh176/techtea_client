@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.slogan {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 4em;
+  font-family: none;
+  font-weight: bold;
+}
+
+.slogan_explain {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.slogan_explain_2 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.techtea_body {
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .slogan {
+    font-size: 25px;
+  }
+
+  .slogan_explain {
+    font-size: 14px;
+  }
+
+  .slogan_explain_2 {
+    font-size: 14px;
+  }
+  
+  .techtea_body {
+    margin-left: 0;
+  }
+
+  .techtea_col_card {
+    padding: 2px 20px;
+  }
+}

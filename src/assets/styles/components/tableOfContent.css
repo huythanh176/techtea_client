@@ -1,0 +1,28 @@
+.techtea_toc_title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.techtea_toc_title_item {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.techtea_toc_subitle_item {
+  font-size: 15px;
+}
+
+.v-list-item-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .techtea_table_of_content {
+    display: none;
+  }
+
+  pre {
+    font-size: 0.5em
+  }
+}

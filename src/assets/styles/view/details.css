@@ -1,0 +1,33 @@
+.techtea_post {
+  padding-left: 10%;
+  border-right: 1px solid #B0BEC5;
+}
+
+.author_name {
+  margin-left: 2%;
+}
+
+.post_datetime {
+  font-size: .875rem;
+  font-weight: 400;
+  letter-spacing: .0178571429em;
+  opacity: var(--v-medium-emphasis-opacity);
+}
+
+.techtea_post_title {
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.techtea_post_description{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+  .techtea_post_title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
